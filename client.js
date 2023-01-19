@@ -18,7 +18,9 @@ const connect = function () {
     console.log("We are connected sucessfully!");
     //writing data to server upon connection  
     conn.write("Name: A.A");
+        //conn.write("Move:up");
   });
   return conn;
 };
+console.log("Connecting...")
 module.exports = { connect };
