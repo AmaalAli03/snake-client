@@ -42,5 +42,8 @@ const handleUserInput = function(key) {
     console.log("Move: right");
 
   }
+  if (key === "k") {
+    connection.write( "Say: I'm after YOU!!");
+  }
 };
 module.exports = { setupInput };
